@@ -875,8 +875,31 @@
     <div class="hero-grid">
       <!-- Left: copy -->
       <div>
-        <p style="font-size:1.3rem; font-weight:700; color:#00D4FF; margin-bottom:1rem; letter-spacing:1px;">info@despachopro.com</p>
-      <div class="hero-eyebrow reveal">Digitalización &amp; Ciberseguridad</div>
+        <a href="mailto:info@despachopro.com" class="email-badge">   <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">     <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>   </svg>   info@despachopro.com </a>
+      .email-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 20px;
+  border: 1.5px solid rgba(0, 212, 255, 0.35);
+  border-radius: 50px;
+  background: rgba(0, 212, 255, 0.07);
+  color: #00D4FF;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  backdrop-filter: blur(6px);
+  transition: all 0.25s ease;
+  margin-bottom: 1rem;
+}
+.email-badge:hover {
+  background: rgba(0, 212, 255, 0.16);
+  border-color: #00D4FF;
+  box-shadow: 0 0 18px rgba(0, 212, 255, 0.22);
+  color: #fff;
+}
+       <div class="hero-eyebrow reveal">Digitalización &amp; Ciberseguridad</div>
         <h1 class="hero-title reveal reveal-delay-1">
           Tu despacho,<br><span class="accent">blindado</span> y digitalizado
         </h1>
